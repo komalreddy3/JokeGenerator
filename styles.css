@@ -36,3 +36,21 @@ p{
 h1{
   font-size:50px;
 }
+
+@media only screen and (max-width: 600px){
+    
+.large {
+    display: flex;
+    justify-content: center;
+    /* margin-top: 30vh; */
+}
+    h1{
+       font-size:30px; 
+    }
+    p {
+    width: 50vw;
+    line-height: 63px;
+    text-align: center;
+    font-size: 22px;
+}
+}
